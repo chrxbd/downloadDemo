@@ -7,6 +7,11 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/**
+ *多线程文件下载器
+ *参数是 资源路径和下载线程数 默认为4 
+ * */
+
 public class Download {
 	//资源路径
 	private String uri;
